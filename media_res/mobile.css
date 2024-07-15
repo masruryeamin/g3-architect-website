@@ -1,0 +1,48 @@
+@media screen and (max-width:576px){
+    *{
+        font-size: 12px
+    }
+    #font-1{
+        line-height: 13px;        
+    }
+    #font-2{
+        line-height: 25px;
+    }
+    #font-3{
+        line-height: 50px;
+    }
+    #font-4{
+        line-height: 15px;
+    }
+    .navbar, .banner{
+        width: 100%;
+        margin: 0 auto;
+      }
+      .banner{
+        padding: 0px 20;
+      }
+      .navbar{
+        display: flex;
+        flex-direction: column;
+      
+      }
+      .navbar ul{
+        padding: 0;
+        margin-top: 10px;
+      }
+      .nav-item{
+        display: inline;
+        margin-left: 0px;
+      }
+      .banner-img{
+        padding: 10px 20px;
+      }
+      .banner h1{
+        margin-top: 0px;
+      }
+      .banner p{
+        margin-top: 10px;
+        margin-bottom: 25px;
+      }
+
+}
