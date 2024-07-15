@@ -14,6 +14,10 @@
     #font-4{
         line-height: 15px;
     }
+    #font-5{
+        line-height: 30px;
+    }
+    /* Banner section start  */
     .navbar, .banner{
         width: 100%;
         margin: 0 auto;
@@ -43,6 +47,37 @@
       .banner p{
         margin-top: 10px;
         margin-bottom: 25px;
+      }
+
+      /* banner section end  */
+      main{
+        width: 100%;
+        padding: 0px 20px;
+      }
+      main > section{
+        margin-top: 60px;
+      }
+      .team-section div{
+        width: 100%;
+      }
+      .team-section{
+        flex-direction: column;
+      }
+      .team-img img{
+        width: 100%;
+      }
+      .team-img{
+        grid-template-columns: repeat(1, 1fr);
+        gap: 10px;
+      }
+      .feature{
+        margin-left: 0px;
+        margin-top: 20px;
+        text-align: center;
+      }
+      .feature p{
+        margin-top: 10px;
+        margin-bottom: 10px;
       }
 
 }
