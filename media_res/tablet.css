@@ -1,6 +1,7 @@
-@media screen and (max-width:576px){
+@media screen and (min-width:575px) and (max-width:990px){
+
     *{
-        font-size: 12px;
+        font-size: 14px;
     }
     #font-1{
         line-height: 13px;        
@@ -16,11 +17,11 @@
         line-height: 15px;
     }
     #font-5{
-        line-height: 30px;
+        line-height: 40px;
     }
-    /* Banner section start  */
-    header{
-        width: 425px;
+     /* Banner section start  */
+     header{
+        width: 100%;
     }
     .navbar, .banner{
         width: 100%;
@@ -32,12 +33,13 @@
       }
       .navbar{
         display: flex;
-        flex-direction: column;
+        /* flex-direction: column; */
+        padding: 20px;
       
       }
       .navbar ul{
         padding: 0;
-        margin-top: 10px;
+        /* margin-top: 10px; */
       }
       .nav-item{
         display: inline;
@@ -55,6 +57,8 @@
       }
 
       /* banner section end  */
+
+
       main{
         width: 100vw;
         /* padding: 0px 20px; */
@@ -74,7 +78,7 @@
         width: 100%;
       }
       .team-img{
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: repeat(2, 1fr);
         /* gap: 10px; */
       }
       .feature{
@@ -124,7 +128,7 @@
 .fact-card{
   margin-top: 50px;
   display: grid;
-  grid-template-columns: repeat(2, 120px);
+  grid-template-columns: repeat(4, 120px);
   justify-content: space-evenly;
   gap: 20px;
 }
@@ -181,5 +185,9 @@ footer{
   height: 50px;  
   margin: 0px 0px;
 }
+
+}
+
+      
 
 }
